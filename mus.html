@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <title> Música </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+    </HEAD>
+    <body>
+        <h1> Música </h1>
+        <P> ¿Qué tanto sabes de música? Seguro que escuchas música a diario, ¿eres el experto que dices ser? </P>
+       <center>
+        <button onclick="salir()"><a href="index.html"> Buscar otra categoría </button>
+            <button onclick="start()">Empezar</button>
+        </center>
+        <div class="container">
+            <div class="quiz-container" style="display:none;">
+                <div class="pregunta"></div>
+                <div class="options"></div>
+                <div class="score">Puntos: <span id="score">0</span></div>
+                <div class="timer"> Tiempo: <span id="time-left">10</span>segundoss</div>
+            </div>
+        </div>
+        <script rfe="game.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <title> Ciencia </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+    </HEAD>
+    <body>
+        <main class="main">
+            <header class="header">
+                <a href="#" class="logo">Samiri's Quizz</a>
+            </header>
+
+        <h1> Ciencia </h1>
+        </main>
+        <P> ¿Qué tanto sabes de ciencia? Acepta nuestro reto científico. </P>
+        <center>
+        <button onclick="salir()"><a href="index.html"> Buscar otra categoría </button>
+        <button class="start" onclick="start('ciencia')">Empezar</button>
+        </center>
+
+        <div class="container">
+            <div class="quiz-container" style="display:none;">
+                <div class="pregunta"></div>
+                <div class="options"></div>
+                <div class="score">Puntos: <span id="score">0</span></div>
+                <div class="timer"> Tiempo: <span id="time-left">10</span>segundoss</div>
+            </div>
+        </div>
+        <script rfe="game.js"></script>
+    </body>
+</html>
